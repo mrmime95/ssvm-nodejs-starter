@@ -4,8 +4,6 @@ I Forked [this project](https://github.com/second-state/ssvm-nodejs-starter) to 
 
 For front-end's design and logic, I used [this react calculator](https://github.com/ahfarmer/calculator), and I changed a bit to use fetch API, and with that, the back-end's Rust functions.
 
-[Learn more](https://www.secondstate.io/articles/raspberry-pi-for-free-20200709/)
-
 ## Use Docker to build and run
 
 1. Fisrtly clone this repo
@@ -32,6 +30,9 @@ $ docker run -p 3000:3000 --rm -it -v $(pwd):/app secondstate/ssvm-nodejs-starte
 
 - [The Case for WebAssembly on the Server-side](https://www.secondstate.io/articles/why-webassembly-server/)
 - [Guide on how to Rust and WebAssembly for server-side apps](https://www.secondstate.io/articles/getting-started-with-rust-function/)
+- [Wasm learning](https://github.com/second-state/wasm-learning/tree/master/nodejs/quadratic)
+- [Image recognition as a web service](https://www.secondstate.io/articles/artificial-intelligence/)
+- [Machine learning and visualization](https://www.secondstate.io/articles/machine-learning/)
 
 ## Resources
 
